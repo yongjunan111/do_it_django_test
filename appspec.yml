@@ -16,3 +16,4 @@ hooks:
         - location: scripts/after_deploy.sh
 	          timeout: 100000  # 100초
           runas: root
+	  
