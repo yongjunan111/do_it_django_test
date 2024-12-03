@@ -1,15 +1,15 @@
 version: 0.0
 os: linux
 files:
-    - source: /
-      destination: /home/ubuntu/do_it_django_test
-file_exists_behavior: OVERWRITE
+  - source: /
+    destination: /home/ubuntu/do_it_django_test
+    file_exists_behavior: OVERWRITE
 
 permissions:
-    - object: /home/ubuntu
-      pattern: '**'
-      owner: root
-      group: root
+  - object: /home/ubuntu
+    pattern: '**'
+    owner: root
+    group: root
 
 hooks:
   AfterInstall:
